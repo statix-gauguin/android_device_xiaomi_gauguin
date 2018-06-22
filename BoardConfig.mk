@@ -11,6 +11,8 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/gauguin
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Platform
 TARGET_BOARD_PLATFORM := lito
 
