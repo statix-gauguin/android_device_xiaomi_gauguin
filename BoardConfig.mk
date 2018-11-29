@@ -133,6 +133,11 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+
 # Vibrator
 HAPTICS_OFFLOAD_SUPPORT := false
 USE_EFFECT_STREAM := false
