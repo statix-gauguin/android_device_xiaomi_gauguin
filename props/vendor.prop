@@ -177,3 +177,6 @@ wifi.aware.interface=wifi-aware0
 
 # Volume steps
 ro.config.vc_call_vol_steps=11
+
+# Zygote
+zygote.critical_window.minute=10
