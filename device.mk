@@ -132,6 +132,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Power
 $(call inherit-product, vendor/qcom/opensource/power/power-vendor-product.mk)
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
