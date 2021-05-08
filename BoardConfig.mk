@@ -57,6 +57,9 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
+ODM_MANIFEST_SKUS += nfc
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/vintf/manifest_nfc.xml
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
