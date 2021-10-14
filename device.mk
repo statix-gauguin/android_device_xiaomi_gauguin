@@ -205,15 +205,13 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc_snxxx@1.2-service \
     com.android.nfc_extras \
     libchrome.vendor \
     NfcNci \
     SecureElement \
-    Tag
-    android.hardware.nfc@1.2-service \
-    android.hardware.secure_element@1.2.vendor \
-    vendor.nxp.hardware.nfc@1.1.vendor \
-    vendor.nxp.hardware.nfc@2.0.vendor
+    Tag \
+    android.hardware.secure_element@1.2.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
