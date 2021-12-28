@@ -155,4 +155,12 @@ ALL_DEFAULT_INSTALLED_MODULES += \
     $(RFS_MDM_SLPI_SYMLINKS) \
     $(RFS_MDM_TN_SYMLINKS)
 
+WLAN_CHIPSETS := wlan qca6750 qca6390
+$(foreach chip, $(WLAN_CHIPSETS), \
+	$(shell mkdir -p $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/$(chip); \
+	ln -sf /vendor/etc/wifi/$(chip)/WCNSS_qcom_cfg.ini \
+	$(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/$(chip)/WCNSS_qcom_cfg.ini; \
+	ln -sf /mnt/vendor/persist/wlan/wlan_mac.bin \
+	$(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/$(chip)/wlan_mac.bin))
+
 endif
