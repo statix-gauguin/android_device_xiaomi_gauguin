@@ -44,3 +44,6 @@ vendor.audio.feature.snd_mon.enable=true
 
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
+
+# Variant specific props
+import /odm/odm.${ro.boot.hwc}.prop

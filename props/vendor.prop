@@ -180,3 +180,6 @@ ro.config.vc_call_vol_steps=11
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Variant specific props
+import /vendor/vendor.${ro.boot.hwc}.prop

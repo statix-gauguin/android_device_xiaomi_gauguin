@@ -1,0 +1,10 @@
+#
+# GLOBAL variant specific props
+#
+
+ro.product.system_ext.brand=Xiaomi
+ro.product.system_ext.device=gauguin
+ro.product.system_ext.model=M2007J17G
+ro.product.system_ext.name=gauguin_global
+ro.product.system_ext.marketname=Mi 10T Lite
+ro.system_ext.build.fingerprint=Xiaomi/gauguin_global/gauguin:12/RKQ1.200826.002/V13.0.8.0.SJSMIXM:user/release-keys

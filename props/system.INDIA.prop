@@ -1,0 +1,18 @@
+#
+# INDIA variant specific props
+#
+
+ro.build.product=gauguininpro
+ro.product.brand=Xiaomi
+ro.product.board=gauguininpro
+ro.product.device=gauguininpro
+ro.product.marketname=Mi 10i
+ro.product.model=M2007J17I
+ro.product.name=gauguininpro
+ro.product.system.brand=Xiaomi
+ro.product.system.device=gauguininpro
+ro.product.system.model=M2007J17I
+ro.product.system.name=gauguininpro
+ro.product.system.marketname=Mi 10i
+ro.system.build.fingerprint=Xiaomi/gauguininpro/gauguininpro:12/RKQ1.200826.002/V13.0.7.0.SJSINXM:user/release-keys
+ro.bootimage.build.fingerprint=Xiaomi/gauguininpro/gauguininpro:12/RKQ1.200826.002/V13.0.7.0.SJSINXM:user/release-keys

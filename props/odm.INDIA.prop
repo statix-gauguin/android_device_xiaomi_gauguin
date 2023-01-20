@@ -1,0 +1,10 @@
+#
+# INDIA variant specific props
+#
+
+ro.product.odm.brand=Xiaomi
+ro.product.odm.device=gauguininpro
+ro.product.odm.model=M2007J17I
+ro.product.odm.name=gauguininpro
+ro.product.odm.marketname=Mi 10i
+ro.odm.build.fingerprint=Xiaomi/gauguininpro/gauguininpro:12/RKQ1.200826.002/V13.0.7.0.SJSINXM:user/release-keys

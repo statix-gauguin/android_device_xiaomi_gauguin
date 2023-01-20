@@ -1,0 +1,10 @@
+#
+# CN variant specific props
+#
+
+ro.product.odm.brand=Redmi
+ro.product.odm.device=gauguinpro
+ro.product.odm.model=M2007J17C
+ro.product.odm.name=gauguinpro
+ro.product.odm.marketname=Redmi Note 9 Pro
+ro.odm.build.fingerprint=Redmi/gauguinpro/gauguinpro:12/RKQ1.200826.002/V13.0.15.0.SJSCNXM:user/release-keys
