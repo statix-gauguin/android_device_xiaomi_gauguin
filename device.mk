@@ -43,7 +43,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # USB
-PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
+$(call inherit-product, vendor/qcom/opensource/usb/vendor_product.mk)
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
