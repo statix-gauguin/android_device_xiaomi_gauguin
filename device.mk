@@ -46,6 +46,13 @@ PRODUCT_COPY_FILES += \
 # Data Services
 $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_product.mk)
 
+# Display
+$(call inherit-product, hardware/qcom-caf/sm8250/display/config/display-product.mk)
+$(call inherit-product, hardware/qcom-caf/sm8250/display/config/display-board.mk)
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk)
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk)
+$(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
