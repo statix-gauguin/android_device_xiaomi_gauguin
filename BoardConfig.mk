@@ -35,6 +35,9 @@ TARGET_BOOTLOADER_BOARD_NAME := gauguin
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
