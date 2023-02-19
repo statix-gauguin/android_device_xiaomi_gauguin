@@ -86,6 +86,8 @@ BOARD_KERNEL_CMDLINE := \
     cgroup.memory=nokmem,nosocket \
     loop.max_part=7
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
