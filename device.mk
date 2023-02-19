@@ -46,5 +46,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/gauguin/gauguin-vendor.mk)
