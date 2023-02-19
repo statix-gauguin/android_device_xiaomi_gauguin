@@ -36,6 +36,9 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/*.rc),\
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
