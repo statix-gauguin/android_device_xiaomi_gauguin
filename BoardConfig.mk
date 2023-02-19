@@ -116,5 +116,9 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Vibrator
+HAPTICS_OFFLOAD_SUPPORT := false
+USE_EFFECT_STREAM := false
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/gauguin/BoardConfigVendor.mk
