@@ -113,6 +113,9 @@ $(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/dis
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk)
 $(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
 
+PRODUCT_PACKAGES += \
+   libtinyxml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
