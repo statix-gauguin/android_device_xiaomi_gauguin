@@ -134,6 +134,13 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/props/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
