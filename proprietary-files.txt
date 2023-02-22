@@ -783,6 +783,10 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
+# Machine Learning
+vendor/bin/npu_launcher
+vendor/lib64/libnpu.so
+
 # Media
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
