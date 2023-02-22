@@ -365,6 +365,12 @@ vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov8856_ultra.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_s5khm2_wide.bin
 
+# Camera - gauguin_global
+vendor/lib/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
+vendor/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|747649d69984027aa5d71393d4d81e76e220a529
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
+vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|747649d69984027aa5d71393d4d81e76e220a529
+
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
