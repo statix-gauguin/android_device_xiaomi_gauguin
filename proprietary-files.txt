@@ -135,6 +135,9 @@ vendor/etc/camera/vidhance_calibration_imx682
 vendor/etc/camera/vidhance_calibration_ov16a1q
 vendor/etc/camera/vidhance_calibration_ov8856
 
+# Camera-firmware
+vendor/firmware/CAMERA_ICP.elf
+
 # Camera (arcsoft)
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
