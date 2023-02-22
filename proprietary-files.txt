@@ -104,6 +104,28 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_superportrait.so
 
+# Camera (camerax)
+vendor/lib/libcamxexternalformatutils.so
+vendor/lib/libcamxfacialfeatures.so
+vendor/lib/libcamxfdalgo.so
+vendor/lib/libcamxfdengine.so
+vendor/lib/libcamxifestriping.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/libcamxncs.so
+vendor/lib/libcamxstatscore.so
+vendor/lib/libcamxswprocessalgo.so
+vendor/lib/libcamxtintlessalgo.so
+vendor/lib64/libcamxexternalformatutils.so
+vendor/lib64/libcamxfacialfeatures.so
+vendor/lib64/libcamxfdalgo.so
+vendor/lib64/libcamxfdengine.so
+vendor/lib64/libcamxifestriping.so
+vendor/lib64/libcamximageformatutils.so
+vendor/lib64/libcamxncs.so
+vendor/lib64/libcamxstatscore.so
+vendor/lib64/libcamxswprocessalgo.so
+vendor/lib64/libcamxtintlessalgo.so
+
 # Camera components
 vendor/lib64/camera/components/com.anc.node.realtimebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
