@@ -248,6 +248,7 @@ PRODUCT_PACKAGES += \
 
 # Platform
 PRODUCT_BOARD_PLATFORM := lito
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Power
 $(call inherit-product, vendor/qcom/opensource/power/power-vendor-product.mk)
