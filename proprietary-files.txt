@@ -397,6 +397,26 @@ vendor/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|747649d69984027aa5
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|747649d69984027aa5d71393d4d81e76e220a529
 
+# CDSP
+vendor/bin/cdsprpcd
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libcdsprpc.so
+vendor/lib/libfastcrc.so
+vendor/lib/libfastcvdsp_stub.so
+-vendor/lib/libfastcvopt.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib64/libcdfw.so
+vendor/lib64/libcdfw_remote_api.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libfastcvdsp_stub.so
+-vendor/lib64/libfastcvopt.so
+vendor/lib64/libmdsprpc.so
+vendor/lib64/libsdsprpc.so
+vendor/lib64/libsysmon_cdsp_skel.so
+
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
