@@ -68,6 +68,10 @@ vendor/lib/libaudioroute_ext.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
+# Audio FX modules
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libshoebox.so
+
 # Audio (Firmware)
 vendor/firmware/RCV-cs35l41-dsp1-spk-cali.bin
 vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
