@@ -114,6 +114,11 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
+# CACert
+-vendor/app/CACertService/CACertService.apk
+vendor/lib64/libcacertclient.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
+
 # Camera
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
