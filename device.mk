@@ -246,6 +246,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
 
+# Platform
+PRODUCT_BOARD_PLATFORM := lito
+
 # Power
 $(call inherit-product, vendor/qcom/opensource/power/power-vendor-product.mk)
 
