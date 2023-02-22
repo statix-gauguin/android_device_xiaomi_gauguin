@@ -799,3 +799,6 @@ vendor/lib64/unnhal-acc-hvx.so
 
 # NFC firmware
 vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
+
+# NVRAM
+vendor/bin/nv_mac
