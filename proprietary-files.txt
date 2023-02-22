@@ -1138,3 +1138,9 @@ vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
+
+# Thermal engine
+vendor/bin/thermal-engine
+vendor/etc/init/init_thermal-engine.rc
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
