@@ -1,5 +1,6 @@
 # All unpinned blobs are extracted from gauguin-user 12 RKQ1.200826.002 V13.0.15.0.SJSCNXM release-keys
 # BSP: LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+# gauguin_global: gauguin_global-user 12 SKQ1.211006.001 V13.0.7.0.SJSMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -502,3 +503,9 @@ vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+
+# DRM (OEM Crypto API) - gauguin_global
+vendor/lib64/libcpion.so|c5a9b19083ce37c6ceb77a2080123a4663f14b31
+vendor/lib64/libminkdescriptor.so|fca2635750b432b1d3c18ddce6a1dacf7e9fac46
+vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
+vendor/lib64/libtrustedapploader.so|ac433510d2d83afb9aa05737e180c9830db71974
