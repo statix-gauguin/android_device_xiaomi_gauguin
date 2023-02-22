@@ -103,6 +103,8 @@ BOARD_KERNEL_CMDLINE := \
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
