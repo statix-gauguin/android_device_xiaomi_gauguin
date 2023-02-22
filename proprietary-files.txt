@@ -520,6 +520,10 @@ vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
+# Feature enabler client
+vendor/bin/feature_enabler_client
+vendor/etc/init/feature_enabler_client.rc
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.lito.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.lito.so
