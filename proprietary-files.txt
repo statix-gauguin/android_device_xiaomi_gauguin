@@ -1003,3 +1003,6 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
+
+# SECCOMP policy
+vendor/etc/seccomp_policy/mediacodec.policy
