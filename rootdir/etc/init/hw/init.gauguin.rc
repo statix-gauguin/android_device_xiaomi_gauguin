@@ -71,24 +71,6 @@ service vendor.btmac-sh /vendor/bin/init.mi.btmac.sh
     oneshot
     disabled
 
-service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-    override
-    class hal
-    user system
-    group nfc system
-
-service secureelement-hal_1_2 /vendor/bin/hw/vendor.qti.secure_element@1.2-service
-    override
-    class hal
-    user system
-    group system
-
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc_snxxx@1.2-service
-    override
-    class hal
-    user nfc
-    group nfc
-
 on boot && property:ro.boot.hwc=INDIA
     stop qti_esepowermanager_service_1_1
     stop secureelement-hal_1_2
